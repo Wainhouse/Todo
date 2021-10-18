@@ -17,3 +17,4 @@ class TaskDetail(DetailView):
 
 
 class taskCreate(CreateView):
+    model = Task
