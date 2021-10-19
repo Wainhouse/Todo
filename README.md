@@ -5,3 +5,7 @@
 
 <h3>Technology</h3>
 <p>Python, Django</p>
+
+
+
+<p>Big Thanks to @dennisivy11. This project really helped my understanding of Django and Python</p>
