@@ -1,8 +1,12 @@
 {% extends 'base/main.html'%}
 {% block content %}
 
+//Task creation document form inherits style from main.html
+
 <div class="header-bar">
+
     <a href="{% url 'tasks' %}">&#8592; Back</a>
+
 </div>
 
 <div class="card-body">
@@ -12,6 +16,7 @@
         {{form.as_p}}
         <input class="button" type="submit" value="submit">
     </form>
+
 </div>
 
 {% endblock content %}

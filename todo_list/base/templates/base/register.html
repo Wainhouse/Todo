@@ -1,12 +1,18 @@
 {% extends 'base/main.html'%}
 {% block content %}
 
+// Register page document of the application, inherits the style from main.html
+
 <div class="header-bar">
+
     <h1>Register</h1>
+
 </div>
 
 <div class="card-body">
+
     <form method="POST">
+
         {% csrf_token %}
         <label>{{form.username.label}}</label>
         {{form.username}}
@@ -18,9 +24,11 @@
         {{form.password2}}
 
         <input style="margin-top:10px;" class="button" type="submit" value="Login">
+
     </form>
 
     <p>Already have an account? <a href="{% url 'login' %}">Login</a></p>
+
 </div>
 
 
